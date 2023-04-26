@@ -8,13 +8,13 @@ public class MinDigit {
         int min = 9;
 
         while (n != 0) {
-            int digit = n % 10; // extract the last digit
-            if (digit < min) { // compare with the current value of min
-                min = digit; // update min if necessary
+            int digit = n % 10; 
+            if (digit < min) { 
+                min = digit; 
             }
-            n /= 10; // remove the last digit from n
-        }
+            n /= 10; 
+         }
 
         System.out.println("The smallest digit is " + min);
-    }
-}
+        }
+      }

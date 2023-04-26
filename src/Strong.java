@@ -8,18 +8,19 @@ public class Strong {
         int num = n;
         int r, sum = 0, fact, i;
 
-        while (n != 0) {
+        while (n != 0) 
+        {
             r = n % 10;
             fact = 1;
             for (i = 1; i <= r; i++) {
-                fact *= i; // calculate the factorial of the digit
+                fact *= i; 
             }
-            sum += fact; // add the factorial to the sum
-            n = n / 10; // remove the rightmost digit
-        }
+            sum += fact; 
+            n = n / 10; 
+           }
         if (sum == num)
             System.out.println("Strong");
         else
             System.out.println("Not Strong");
     }
-}
+   }

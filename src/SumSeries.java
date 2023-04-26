@@ -8,10 +8,10 @@ public class SumSeries {
         double sum = 0.0;
         
         for (int i = 1; i <= n; i++) {
-            double term = (double) i / (i + 1); // calculate the current term
-            sum += term; // add the term to the sum
+            double term = (double) i / (i + 1); 
+            sum += term; 
         }
         
-        System.out.printf("Sum of the series: %.2f", sum); // output the sum with two decimal places
+        System.out.printf("Sum of the series: %.2f", sum); 
     }
 }

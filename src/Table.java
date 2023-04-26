@@ -5,9 +5,9 @@ public class Table {
         int n = sc.nextInt();
 
         for (int i = 1; i <= 10; i++) {
-            int product = n * i; // calculate the product of n and i
-            System.out.println(n + " x " + i + " = " + product); // output the result
-        }
+            int product = n * i; 
+            System.out.println(n + " * " + i + " = " + product); 
+         }
 
-    }
-}
+         }
+                }

@@ -16,7 +16,7 @@ public class NthArmstrong {
         n = num;
         while (n != 0) {
             r = n % 10;
-            sum += Math.pow(r, l); // calculate the power of each digit and add it to the sum
+            sum += Math.pow(r, l); 
             n = n / 10;
         }
         if (sum == num)
@@ -25,4 +25,4 @@ public class NthArmstrong {
             System.out.println("Not Armstrong");
 
     }
-}
+ }
